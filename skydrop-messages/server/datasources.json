@@ -1,0 +1,12 @@
+{
+  "postgresDB": {
+    "host": "localhost",
+    "port": 0,
+    "url": "",
+    "database": "messages",
+    "password": "",
+    "name": "postgresDB",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
