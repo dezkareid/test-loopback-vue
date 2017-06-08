@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <MenuSkydrop></MenuSkydrop>
+    <ContactForm></ContactForm>
   </div>
 </template>
 
 <script>
 import MenuSkydrop from './components/MenuSkydrop'
+import ContactForm from './components/ContactForm'
 
 export default {
   name: 'app',
   components: {
-    MenuSkydrop
+    MenuSkydrop,
+    ContactForm
   }
 }
 </script>
