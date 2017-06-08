@@ -2,18 +2,21 @@
   <div id="app">
     <MenuSkydrop></MenuSkydrop>
     <ContactForm></ContactForm>
+    <FooterSkydrop></FooterSkydrop>
   </div>
 </template>
 
 <script>
 import MenuSkydrop from './components/MenuSkydrop'
 import ContactForm from './components/ContactForm'
+import FooterSkydrop from './components/FooterSkydrop'
 
 export default {
   name: 'app',
   components: {
     MenuSkydrop,
-    ContactForm
+    ContactForm,
+    FooterSkydrop
   }
 }
 </script>
