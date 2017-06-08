@@ -43,10 +43,13 @@
         <label for="select">Asunto</label>
       </div>
       <div class="input-field">
-        <v-text-area name="comment" id="comment">
+        <v-text-area name="comment" id="comment" required>
         </v-text-area>
         <label for="comment">Dudas, comentarios o reporte</label>
-        </div>
+      </div>
+      <div class="center">
+        <v-btn class="send-form">Enviar</v-btn>
+      </div>
     </form>
   </div>
 </template>
@@ -58,4 +61,7 @@ export default {
 </script>
 
 <style scoped>
+  .send-form {
+    background-color: black;
+  }
 </style>
