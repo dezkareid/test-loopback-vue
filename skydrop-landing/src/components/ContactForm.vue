@@ -4,7 +4,7 @@
     <form>
       <div class="input-field">
         <v-text-input 
-          id="name" name="name"  
+          name="name" id="name"  
           placeholder="Joel Humberto Gómez Paredes" required>
         </v-text-input>
         <label for="name">Nombre</label>
@@ -42,6 +42,11 @@
         </v-select>
         <label for="select">Asunto</label>
       </div>
+      <div class="input-field">
+        <v-text-area name="comment" id="comment">
+        </v-text-area>
+        <label for="comment">Dudas, comentarios o reporte</label>
+        </div>
     </form>
   </div>
 </template>
