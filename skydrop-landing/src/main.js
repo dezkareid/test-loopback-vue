@@ -2,7 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import Materials from 'vue-materials'
 
+Vue.use(Materials)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
