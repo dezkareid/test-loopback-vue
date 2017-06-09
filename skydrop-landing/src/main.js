@@ -3,8 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import Materials from 'vue-materials'
+import VeeValidate from 'vee-validate'
 
 Vue.use(Materials)
+Vue.use(VeeValidate)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
