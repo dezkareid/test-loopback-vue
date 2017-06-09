@@ -1,5 +1,5 @@
 <template>
-  <v-nav>
+  <v-nav class="navbar-fixed">
     <ul>
       <li>
         <a href="#!">
@@ -66,7 +66,7 @@
   }
 
   .round-menu a:hover {
-    border-color: #00796B;
-    color: #00796B;
+    background-color: white;
+    color: rgba(70,38,160,0.95);
   }
 </style>
