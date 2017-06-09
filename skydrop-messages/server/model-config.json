@@ -13,14 +13,6 @@
       "./mixins"
     ]
   },
-  "Category": {
-    "dataSource": "postgresDB",
-    "public": true
-  },
-  "Topic": {
-    "dataSource": "postgresDB",
-    "public": true
-  },
   "Message": {
     "dataSource": "postgresDB",
     "public": true

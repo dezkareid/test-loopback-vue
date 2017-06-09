@@ -18,27 +18,23 @@
       "type": "string",
       "required": true
     },
+    "category": {
+      "type": "string"
+    },
     "company": {
       "type": "string"
     },
     "comment": {
       "type": "string",
       "required": true
+    },
+    "topic": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "category": {
-      "type": "belongsTo",
-      "model": "Category",
-      "foreignKey": ""
-    },
-    "topic": {
-      "type": "belongsTo",
-      "model": "Topic",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
