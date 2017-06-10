@@ -8,5 +8,11 @@
     "name": "postgresDB",
     "user": "postgres",
     "connector": "postgresql"
+  },
+  "test-db": {
+    "name": "test-db",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
   }
 }
