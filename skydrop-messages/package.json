@@ -6,10 +6,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "lint": "eslint .",
     "start": "node .",
-    "test": "NODE_ENV=test node ./node_modules/mocha/bin/mocha --reporter nyan test/**/*.test.js ",
-    "posttest": "npm run lint && nsp check"
+    "test": "NODE_ENV=test node ./node_modules/mocha/bin/mocha --reporter nyan test/**/*.test.js "
   },
   "dependencies": {
     "compression": "^1.0.3",
