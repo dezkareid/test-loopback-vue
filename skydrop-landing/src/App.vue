@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <vue-progress-bar></vue-progress-bar>
     <MenuSkydrop></MenuSkydrop>
     <ContactForm></ContactForm>
     <ContactInfo></ContactInfo>
